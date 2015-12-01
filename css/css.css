@@ -1,0 +1,100 @@
+.clearfix:after { content:"."; display:block; height:0; visibility:hidden; clear:both;  }
+
+html {
+	background: rgba(0, 230, 180, 1);
+}
+body {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: lighter;
+   color: #333;
+}
+a {text-decoration: underline; color: rgb(255, 255, 255);}
+
+#wrapper {width: 100%; height: 100%;}
+
+h6 {font-size: 0.9em; font-weight: bolder; line-height: 24px; margin-right: 20px; color: rgb(10,40,80);}
+
+/*navigation bar*/
+nav {position: fixed; z-index: 1000; top: 0px; left: 0px; padding: 20px; width: 100%; background: rgba(255,255,255,.90);}
+nav li {float:left; margin: 0 20px 0 0; line-height: 24px; }
+nav a { font-size: .8em; text-transform: uppercase; border-bottom: 1px solid transparent; transition: border .25s; color: #333;}
+nav .hl a {border-bottom: 1px solid #333; transition: border .25s;}
+nav li a:hover, nav li a:focus {border-bottom: 1px solid rgba(0,154,220,1);}
+nav ul, nav h6 {float: left;}
+
+.welcome {
+  position: absolute;
+  width: 300px;
+  padding: 0px;
+  left: 50%;
+  top: 50%;
+  margin: -90px 0 0 -160px;
+}
+.welcome h6 { font-size: 7em; text-align: left; line-height: inherit;}
+.welcome ul {margin-left: 4px;}
+
+/*container*/
+.container {max-width: 1200px; margin: 0 auto; padding: 80px 20px 0 20px;}
+.description {max-width: 640px; margin: 0 auto 80px auto;}
+.work_container {}
+.section {margin-bottom: 40px;}
+
+
+.opener {max-width: 100%; margin: 0 auto; display: block;}
+
+/*Project Title*/
+h2 {font-size: 1.75em; font-weight: bolder; text-align: center;}
+
+/*Project Subhead*/
+h3 {font-size: 1em; text-align: center; margin-bottom: 1em; color: #999;}
+
+/*Project Subhead*/
+h5 {
+	font-size: 4em;
+	font-weight: bolder; 
+	text-align: center; 
+	margin-bottom: 1em; 
+	color: #333;
+	position: absolute;
+	z-index:-1;
+	top: -80px;
+	text-transform: uppercase;
+}
+
+.logo, .download {
+	margin: 0 auto;
+	display: block;
+	width: 206px;
+	margin-bottom: 20px;
+}
+
+.download img {
+	margin: 0 auto;
+	display: block;
+}
+
+footer {
+	position: fixed; 
+	z-index: 1000; 
+	bottom: 0px;
+	text-align: center;
+	padding: 20px 0px; 
+	width: 100%; 
+}
+
+/*Description*/
+p {font-size: .9em; margin-bottom: .9em;}
+
+/*work container*/
+
+
+/*section title*/
+h4 {font-size: 1em; font-weight: bolder; border-bottom: 1px solid #333; margin: 0 0 20px 0;}
+
+/*work*/
+.work_container img {max-width: 100%; margin-bottom: 80px;}
+
+
+
+
+
